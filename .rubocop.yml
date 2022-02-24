@@ -1,0 +1,27 @@
+require:
+  - rubocop-minitest
+  - rubocop-performance
+
+AllCops:
+  DisplayStyleGuide: true
+  NewCops: enable
+
+Layout/ClassStructure:
+  Enabled: true
+
+Metrics/ClassLength:
+  Max: 150
+
+Naming/VariableNumber:
+  Enabled: false
+
+Layout/LineLength:
+  Max: 90
+  IgnoredPatterns:
+    - describe
+
+Style/Documentation:
+  Enabled: false
+
+Style/DoubleNegation:
+  Enabled: false
