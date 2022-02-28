@@ -16,7 +16,7 @@ Naming/VariableNumber:
   Enabled: false
 
 Layout/LineLength:
-  Max: 90
+  Max: 95
   IgnoredPatterns:
     - describe
 
