@@ -37,9 +37,32 @@ class SetOfStacks
     value
   end
 
+  def pop_at(index)
+    stack_index = index / 5
+    item_index = index % 5
+    value = stacks[stack_index].delete_at(item_index)
+
+    reorder_stacks(index)
+
+    value
+  end
+
   private
 
   attr_reader :stacks, :capacity
+
+  def reorder_stacks(index)
+    stack_index = index / 5
+
+    (stack_index...stacks.size).each do |i|
+      break if i + 1 >= stacks.size
+
+      item = stacks[i + 1].delete_at(0)
+      stacks[i].append(item)
+    end
+
+    stacks.pop if stacks.last.empty?
+  end
 end
 
 class TestSetOfStacks < Minitest::Test
@@ -74,5 +97,20 @@ class TestSetOfStacks < Minitest::Test
 
     assert_equal 5, stack.pop
     assert_equal [[1, 2, 3, 4]], stack.send(:stacks)
+
+    stack.push(5)
+    stack.push(6)
+    stack.push(7)
+    stack.push(8)
+    assert_equal [[1, 2, 3, 4, 5], [6, 7, 8]], stack.send(:stacks)
+
+    assert_equal 1, stack.pop_at(0)
+    assert_equal [[2, 3, 4, 5, 6], [7, 8]], stack.send(:stacks)
+
+    assert_equal 7, stack.pop_at(5)
+    assert_equal [[2, 3, 4, 5, 6], [8]], stack.send(:stacks)
+
+    assert_equal 2, stack.pop_at(0)
+    assert_equal [[3, 4, 5, 6, 8]], stack.send(:stacks)
   end
 end
