@@ -10,77 +10,85 @@
 # They cannot select which specific animal they would like.
 # Create the data structures to maintain this system and implement operations
 # such as enqueue, dequeueAny, dequeueDog, and dequeueCat.
+
 # You may use the built-in Linked list data structure.
 
 require 'minitest/autorun'
 
+Animal = Struct.new(:kind)
+QueueItem = Struct.new(:animal, :timestamp, keyword_init: true)
+
 class AnimalShelter
   def initialize
-    @stack = []
+    @dogs = []
+    @cats = []
   end
 
-  def push(value)
-    stack.append(value)
+  def enqueue(animal)
+    item = QueueItem.new(animal:, timestamp: Time.now.to_f.round(3)*1000)
+    animal.kind == :dog ? dogs.append(item) : cats.append(item)
   end
 
-  def pop
-    stack.pop
+  def dequeue
+    # puts "dog #{dogs.first.timestamp} cat #{cats.first.timestamp}"
+    return dequeue_cat if dogs.empty?
+    return dequeue_dog if cats.empty?
+
+    dogs.first.timestamp <= cats.first.timestamp ? dequeue_dog : dequeue_cat
   end
 
-  def empty?
-    stack.empty?
+  def dequeue_dog
+    dogs.shift.animal
   end
 
-  def peek
-    stack.last
-  end
-
-  def sort
-    sorted_stack = []
-
-    until stack.empty?
-      temp = stack.pop
-
-      while sorted_stack.last && sorted_stack.last < temp
-        item = sorted_stack.pop
-        stack.push(item)
-      end
-
-      sorted_stack.push(temp)
-    end
-
-    @stack = sorted_stack
+  def dequeue_cat
+    cats.shift.animal
   end
 
   private
 
-  attr_reader :stack
+  attr_reader :dogs, :cats
 end
 
 class TestAnimalShelter < Minitest::Test
   def test_1
-    stack = Stack.new
+    dog1 = Animal.new(:dog)
+    dog2 = Animal.new(:dog)
+    dog3 = Animal.new(:dog)
 
-    stack.push(1)
-    stack.push(2)
-    stack.push(3)
-    stack.push(4)
-    stack.push(5)
+    cat1 = Animal.new(:cat)
+    cat2 = Animal.new(:cat)
+    cat3 = Animal.new(:cat)
+    cat4 = Animal.new(:cat)
 
-    assert_equal [1, 2, 3, 4, 5], stack.send(:stack)
-    assert_equal [5, 4, 3, 2, 1], stack.sort
-  end
+    shelter = AnimalShelter.new
 
-  def test_2
-    stack = Stack.new
+    shelter.enqueue(dog1)
+    sleep(0.1)
+    shelter.enqueue(cat1)
+    sleep(0.1)
+    shelter.enqueue(dog2)
+    sleep(0.1)
+    shelter.enqueue(dog3)
+    sleep(0.1)
+    shelter.enqueue(cat2)
+    sleep(0.1)
+    shelter.enqueue(cat3)
+    sleep(0.1)
+    shelter.enqueue(cat4)
+    sleep(0.1)
 
-    stack.push(1)
-    stack.push(4)
-    stack.push(3)
-    stack.push(2)
-    stack.push(5)
+    assert_equal 3, shelter.send(:dogs).size
+    assert_equal 4, shelter.send(:cats).size
 
-    assert_equal [1, 4, 3, 2, 5], stack.send(:stack)
-    assert_equal [5, 4, 3, 2, 1], stack.sort
+    assert_equal dog1, shelter.dequeue
+    assert_equal cat1, shelter.dequeue
+
+    assert_equal dog2, shelter.dequeue_dog
+    assert_equal cat2, shelter.dequeue_cat
+
+    assert_equal dog3, shelter.dequeue
+    assert_equal cat3, shelter.dequeue
+    assert_equal cat4, shelter.dequeue
   end
 end
