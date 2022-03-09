@@ -45,9 +45,6 @@ class BinarySearchTree
     left_height = height(node.left) || 0
     right_height = height(node.right) || 0
 
-    # puts left_height
-    # puts right_height
-
     (left_height - right_height).abs <= 1
   end
 
