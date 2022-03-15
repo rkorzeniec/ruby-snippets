@@ -2,7 +2,7 @@
 
 # https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/
 
-require 'minitest/autorun'
+require_relative '../test_helper'
 
 # Runtime: 77 ms, faster than 86.21% of Ruby online submissions for Average Salary Excluding the Minimum and Maximum Salary.
 # Memory Usage: 211.1 MB, less than 58.62% of Ruby online submissions for Average Salary Excluding the Minimum and Maximum Salary.

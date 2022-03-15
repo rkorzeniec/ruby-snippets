@@ -8,7 +8,7 @@
 # Input: the node c from the linked list a -> b -> c -> d -> e -> f
 # Result: nothing is returned, but the new linked list looks like a -> b -> d -> e -> f
 
-require 'minitest/autorun'
+require_relative '../test_helper'
 
 Node = Struct.new('Node', :value, :next)
 

@@ -2,7 +2,7 @@
 
 # https://leetcode.com/problems/valid-anagram/
 
-require 'minitest/autorun'
+require_relative '../test_helper'
 
 # Runtime: 116 ms, faster than 89.61% of Ruby online submissions for Valid Anagram.
 # Memory Usage: 217.3 MB, less than 37.28% of Ruby online submissions for Valid Anagram.

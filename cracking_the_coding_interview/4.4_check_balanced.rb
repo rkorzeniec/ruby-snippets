@@ -6,7 +6,7 @@
 # a balanced tree is defined to be a tree such that the heights of the two
 # subtrees of any node never differ by more than one.
 
-require 'minitest/autorun'
+require_relative '../test_helper'
 
 class BSTNode
   attr_accessor :value, :left, :right

@@ -12,7 +12,7 @@
 #     "URURD", return false
 #     "RUULLDRD", return true
 
-require 'minitest/autorun'
+require_relative '../test_helper'
 
 Point = Struct.new(:x, :y, keyword_init: true)
 

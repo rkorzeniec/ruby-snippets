@@ -4,7 +4,7 @@
 # Given an array of integers, return whether or not two numbers sum to a given target, k.
 # NOTE: you may not sum a number with itself.
 
-require 'minitest/autorun'
+require_relative '../test_helper'
 
 class TwoSum
   def initialize(numbers)

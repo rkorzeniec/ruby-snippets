@@ -14,7 +14,7 @@
 
 # Output: f, e, a, b, d, c
 
-require 'minitest/autorun'
+require_relative '../test_helper'
 
 class Node
   attr_accessor :data, :adjecents, :state

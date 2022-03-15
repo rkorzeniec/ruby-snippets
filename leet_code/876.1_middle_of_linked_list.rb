@@ -2,7 +2,7 @@
 
 # https://leetcode.com/problems/middle-of-the-linked-list/
 
-require 'minitest/autorun'
+require_relative '../test_helper'
 
 class ListNode
   attr_accessor :val, :next

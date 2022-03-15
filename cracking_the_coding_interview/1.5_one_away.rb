@@ -11,7 +11,7 @@
 # pale, bale -> true
 # pale, bake -> false
 
-require 'minitest/autorun'
+require_relative '../test_helper'
 
 class OneAway
   def initialize(text, other_text)

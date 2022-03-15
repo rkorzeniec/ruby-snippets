@@ -6,7 +6,7 @@
 # Avoid storing additional nodes in a data structure.
 # NOTE: This is not necessarily a binary search tree.
 
-require 'minitest/autorun'
+require_relative '../test_helper'
 
 class Node
   attr_accessor :value, :left, :right

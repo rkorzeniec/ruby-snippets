@@ -2,7 +2,7 @@
 
 # https://leetcode.com/problems/two-sum/
 
-require 'minitest/autorun'
+require_relative '../test_helper'
 
 # Runtime: 72 ms, faster than 87.22% of Ruby online submissions for Two Sum.
 # Memory Usage: 212.2 MB, less than 22.15% of Ruby online submissions for Two Sum.

@@ -8,7 +8,7 @@
 # 1 -> 2 -> 3 -> 4 -> null, return 3
 # 1 -> null, return 1
 
-require 'minitest/autorun'
+require_relative '../test_helper'
 
 Node = Struct.new('Node', :value, :next)
 

@@ -2,7 +2,7 @@
 
 # Implement a function to check if a binary tree is a binary search tree.
 
-require 'minitest/autorun'
+require_relative '../test_helper'
 
 class Node
   attr_accessor :value, :left, :right

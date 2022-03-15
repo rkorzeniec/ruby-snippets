@@ -3,7 +3,7 @@
 # Given a sorted (increasing order) array with unique integer elements, write an algo­rithm
 # to create a binary search tree with minimal height.
 
-require 'minitest/autorun'
+require_relative '../test_helper'
 
 class Node
   attr_accessor :value, :left, :right

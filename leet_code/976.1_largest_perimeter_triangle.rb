@@ -2,7 +2,7 @@
 
 # https://leetcode.com/problems/largest-perimeter-triangle/
 
-require 'minitest/autorun'
+require_relative '../test_helper'
 
 # Runtime: 168 ms, faster than 27.27% of Ruby online submissions for Largest Perimeter Triangle.
 # Memory Usage: 213.5 MB, less than 72.73% of Ruby online submissions for Largest Perimeter Triangle.

@@ -8,7 +8,7 @@
 # your method should return the original string. You can assume the string has
 # only uppercase and lowercase letters(a - z).
 
-require 'minitest/autorun'
+require_relative '../test_helper'
 
 class StringCompresser
   def initialize(text)

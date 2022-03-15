@@ -5,7 +5,7 @@
 # Given two sorted linked lists, merge them together in ascending order
 # and return a reference to the merged list
 
-require 'minitest/autorun'
+require_relative '../test_helper'
 
 Node = Struct.new('Node', :value, :next)
 

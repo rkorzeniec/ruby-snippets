@@ -2,7 +2,7 @@
 
 # https://leetcode.com/problems/merge-sorted-array/
 
-require 'minitest/autorun'
+require_relative '../test_helper'
 
 # Runtime: 109 ms, faster than 51.85% of Ruby online submissions for Merge Sorted Array.
 # Memory Usage: 210.9 MB, less than 60.37% of Ruby online submissions for Merge Sorted Array.

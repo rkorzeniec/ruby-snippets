@@ -2,7 +2,7 @@
 
 # https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/
 
-require 'minitest/autorun'
+require_relative '../test_helper'
 
 # Runtime: 48 ms, faster than 98.15% of Ruby online submissions for Subtract the Product and Sum of Digits of an Integer.
 # Memory Usage: 211.1 MB, less than 48.15% of Ruby online submissions for Subtract the Product and Sum of Digits of an Integer.

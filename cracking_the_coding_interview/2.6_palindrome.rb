@@ -2,7 +2,7 @@
 
 # Implement a function to check if a linked list is a palindrome.
 
-require 'minitest/autorun'
+require_relative '../test_helper'
 
 Node = Struct.new('Node', :value, :next)
 

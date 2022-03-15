@@ -2,7 +2,7 @@
 
 # https://leetcode.com/problems/number-of-closed-islands/
 
-require 'minitest/autorun'
+require_relative '../test_helper'
 
 # Runtime: 115 ms, faster than 71.43% of Ruby online submissions for Number of Closed Islands.
 # Memory Usage: 212.3 MB, less than 28.57% of Ruby online submissions for Number of Closed Islands.

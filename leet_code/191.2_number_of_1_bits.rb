@@ -2,7 +2,7 @@
 
 # https://leetcode.com/problems/number-of-1-bits/
 
-require 'minitest/autorun'
+require_relative '../test_helper'
 
 # Runtime: 107 ms, faster than 49.59% of Ruby online submissions for Number of 1 Bits.
 # Memory Usage: 210.9 MB, less than 17.07% of Ruby online submissions for Number of 1 Bits.

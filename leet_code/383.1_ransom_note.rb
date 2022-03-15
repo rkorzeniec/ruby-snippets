@@ -2,7 +2,7 @@
 
 # https://leetcode.com/problems/ransom-note/
 
-require 'minitest/autorun'
+require_relative '../test_helper'
 
 # Runtime: 145 ms, faster than 84.00% of Ruby online submissions for Ransom Note.
 # Memory Usage: 263.5 MB, less than 5.33% of Ruby online submissions for Ransom Note.

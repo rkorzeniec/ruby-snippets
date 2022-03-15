@@ -3,7 +3,7 @@
 # Given a directed graph,
 # design an algorithm to find out whether there is a route between two nodes.
 
-require 'minitest/autorun'
+require_relative '../test_helper'
 
 class Node
   attr_accessor :data, :adjecents

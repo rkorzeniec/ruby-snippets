@@ -27,7 +27,7 @@
 #       6   9
 # and the search value 7 return null.
 
-require 'minitest/autorun'
+require_relative '../test_helper'
 
 class Node
   attr_accessor :value, :left, :right

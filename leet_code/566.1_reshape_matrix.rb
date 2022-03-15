@@ -2,7 +2,7 @@
 
 # https://leetcode.com/problems/reshape-the-matrix/
 
-require 'minitest/autorun'
+require_relative '../test_helper'
 
 # Runtime: 125 ms, faster than 49.12% of Ruby online submissions for Reshape the Matrix.
 # Memory Usage: 211.6 MB, less than 21.05% of Ruby online submissions for Reshape the Matrix.

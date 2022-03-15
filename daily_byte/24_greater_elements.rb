@@ -16,7 +16,7 @@
 # because 3 is the first greater element that occurs in nums2 after 2 and
 # no element is greater than 4.
 
-require 'minitest/autorun'
+require_relative '../test_helper'
 
 class GreaterElements
   def initialize(nums1, nums2)

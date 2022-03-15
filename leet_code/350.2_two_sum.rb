@@ -6,7 +6,7 @@
 
 # What if the given array is already sorted? How would you optimize your algorithm?
 
-require 'minitest/autorun'
+require_relative '../test_helper'
 
 # Runtime: 52 ms, faster than 98.65% of Ruby online submissions for Intersection of Two Arrays II.
 # Memory Usage: 211.4 MB, less than 12.84% of Ruby online submissions for Intersection of Two Arrays II.

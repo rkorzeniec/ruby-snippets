@@ -8,7 +8,7 @@
 # You may assume that each sentence is a sequence of words
 # (without punctuation) correctly separated using space characters.
 
-require 'minitest/autorun'
+require_relative '../test_helper'
 require 'set'
 
 class UncommonWords

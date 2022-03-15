@@ -2,7 +2,7 @@
 
 # https://leetcode.com/problems/reverse-string/
 
-require 'minitest/autorun'
+require_relative '../test_helper'
 
 # Runtime: 322 ms, faster than 58.16% of Ruby online submissions for Reverse String.
 # Memory Usage: 225.6 MB, less than 62.58% of Ruby online submissions for Reverse String.

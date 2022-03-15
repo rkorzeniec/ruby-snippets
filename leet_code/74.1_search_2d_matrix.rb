@@ -2,7 +2,7 @@
 
 # https://leetcode.com/problems/search-a-2d-matrix/
 
-require 'minitest/autorun'
+require_relative '../test_helper'
 
 # Runtime: 44 ms, faster than 98.25% of Ruby online submissions for Search a 2D Matrix.
 # Memory Usage: 211.3 MB, less than 19.30% of Ruby online submissions for Search a 2D Matrix.

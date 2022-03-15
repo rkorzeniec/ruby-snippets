@@ -2,7 +2,7 @@
 
 # Write code to remove duplicates from an unsorted linked list.
 
-require 'minitest/autorun'
+require_relative '../test_helper'
 require 'set'
 
 Node = Struct.new('Node', :value, :next)

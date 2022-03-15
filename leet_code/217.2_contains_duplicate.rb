@@ -2,7 +2,7 @@
 
 # https://leetcode.com/problems/contains-duplicate/
 
-require 'minitest/autorun'
+require_relative '../test_helper'
 
 # Runtime: 104 ms, faster than 84.37% of Ruby online submissions for Contains Duplicate.
 # Memory Usage: 218.9 MB, less than 44.37% of Ruby online submissions for Contains Duplicate.

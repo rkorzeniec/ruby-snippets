@@ -2,7 +2,7 @@
 
 # https://leetcode.com/problems/reverse-words-in-a-string-iii/
 
-require 'minitest/autorun'
+require_relative '../test_helper'
 
 # Runtime: 140 ms, faster than 59.74% of Ruby online submissions for Reverse Words in a String III.
 # Memory Usage: 211.7 MB, less than 77.92% of Ruby online submissions for Reverse Words in a String III.

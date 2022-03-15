@@ -3,7 +3,7 @@
 # IMPORTANT: normally I'd use String#reverse as it would be more performant,
 # as it is written in C on the String class.
 
-require 'minitest/autorun'
+require_relative '../test_helper'
 
 class Reverser
   def initialize(text)

@@ -11,7 +11,7 @@
 # Input: A -> B -> C -> D -> E -> C [the same C as earlier]
 # Output: C
 
-require 'minitest/autorun'
+require_relative '../test_helper'
 
 class Node
   attr_accessor :value, :next_node

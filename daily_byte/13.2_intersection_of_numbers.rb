@@ -4,7 +4,7 @@
 # Given two integer arrays, return their intersection.
 # NOTE: the intersection is the set of elements that are common to both arrays.
 
-require 'minitest/autorun'
+require_relative '../test_helper'
 require 'set'
 
 class ArrayIntersection

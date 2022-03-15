@@ -6,7 +6,7 @@
 
 # That is, if you cut off the tree at node n, the two trees would be identical.
 
-require 'minitest/autorun'
+require_relative '../test_helper'
 
 class Node
   attr_accessor :value, :left, :right

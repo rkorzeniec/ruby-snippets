@@ -2,7 +2,7 @@
 
 # Given two strings, write a method to decide if one is a permutation of the other.
 
-require 'minitest/autorun'
+require_relative '../test_helper'
 require 'set'
 
 class Solution

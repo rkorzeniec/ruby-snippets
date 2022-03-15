@@ -9,7 +9,7 @@
 # (by reference) as the jth node of the second linked list,
 # then they are intersecting.
 
-require 'minitest/autorun'
+require_relative '../test_helper'
 
 TailNode = Struct.new('TailNode', :span, :node, keyword_init: true)
 

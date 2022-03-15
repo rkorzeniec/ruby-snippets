@@ -6,7 +6,7 @@
 # A string correctly uses capitalization if all letters are capitalized,
 # no letters are capitalized, or only the first letter is capitalized.
 
-require 'minitest/autorun'
+require_relative '../test_helper'
 
 class Capitalizer
   def initialize(text)

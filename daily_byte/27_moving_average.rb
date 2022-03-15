@@ -16,7 +16,7 @@
 # m.next(7) = returns 5 because(3 + 5 + 7) / 3 = 5
 # m.next(6) = returns 6 because(5 + 7 + 6) / 3 = 6
 
-require 'minitest/autorun'
+require_relative '../test_helper'
 
 class MovingAverage
   def initialize(capacity)

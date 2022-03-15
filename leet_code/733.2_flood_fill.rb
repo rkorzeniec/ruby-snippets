@@ -2,7 +2,7 @@
 
 # https://leetcode.com/problems/flood-fill/
 
-require 'minitest/autorun'
+require_relative '../test_helper'
 
 # Runtime: 110 ms, faster than 58.24% of Ruby online submissions for Flood Fill.
 # Memory Usage: 211.4 MB, less than 23.08% of Ruby online submissions for Flood Fill.

@@ -9,7 +9,7 @@
 # Input: Tact Coa
 # Output: True (permutations: "taco cat", "atco eta", etc.)
 
-require 'minitest/autorun'
+require_relative '../test_helper'
 
 class PalindromePermutation
   def initialize(text)

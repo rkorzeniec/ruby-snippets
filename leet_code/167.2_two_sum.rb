@@ -2,7 +2,7 @@
 
 # https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
 
-require 'minitest/autorun'
+require_relative '../test_helper'
 
 # Runtime: 56 ms, faster than 95.90% of Ruby online submissions for Two Sum II - Input Array Is Sorted.
 # Memory Usage: 212.2 MB, less than 11.19% of Ruby online submissions for Two Sum II - Input Array Is Sorted.

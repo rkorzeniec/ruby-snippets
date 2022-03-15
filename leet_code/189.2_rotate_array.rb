@@ -2,7 +2,7 @@
 
 # https://leetcode.com/problems/rotate-array/
 
-require 'minitest/autorun'
+require_relative '../test_helper'
 
 class Solution
   class << self

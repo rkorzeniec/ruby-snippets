@@ -4,7 +4,7 @@
 # Given two strings s and t, return whether or not s is an anagram of t.
 # Note: An anagram is a word formed by reordering the letters of another word.
 
-require 'minitest/autorun'
+require_relative '../test_helper'
 
 class Anagram
   def initialize(text)

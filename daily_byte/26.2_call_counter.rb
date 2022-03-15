@@ -17,7 +17,7 @@
 # ping(3002), return 3 (3 calls within the last 3 seconds)
 # ping(7000), return 1 (1 call within the last 3 seconds)
 
-require 'minitest/autorun'
+require_relative '../test_helper'
 
 class CallCounter
   INTERVAL = 3000

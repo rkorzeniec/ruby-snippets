@@ -2,7 +2,7 @@
 
 # https://leetcode.com/problems/find-nearest-point-that-has-the-same-x-or-y-coordinate/
 
-require 'minitest/autorun'
+require_relative '../test_helper'
 
 # Runtime: 190 ms, faster than 50.00% of Ruby online submissions for Find Nearest Point That Has the Same X or Y Coordinate.
 # Memory Usage: 212.7 MB, less than 40.00% of Ruby online submissions for Find Nearest Point That Has the Same X or Y Coordinate.

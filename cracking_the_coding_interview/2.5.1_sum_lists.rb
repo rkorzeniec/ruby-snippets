@@ -12,7 +12,7 @@
 # Input: (7 -> 1 -> 6) + (5 -> 9 -> 2). That is, 617 + 295.
 # Output: 2 -> 1 -> 9. That is, 912.
 
-require 'minitest/autorun'
+require_relative '../test_helper'
 require 'set'
 
 Node = Struct.new('Node', :value, :next)

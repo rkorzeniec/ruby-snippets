@@ -2,7 +2,7 @@
 
 # https://leetcode.com/problems/first-bad-version/
 
-require 'minitest/autorun'
+require_relative '../test_helper'
 
 # Runtime: 80 ms, faster than 66.99% of Ruby online submissions for First Bad Version.
 # Memory Usage: 210.7 MB, less than 44.74% of Ruby online submissions for First Bad Version.

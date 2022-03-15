@@ -4,7 +4,7 @@
 # Given a string representing your stones and another string representing a list of jewels,
 # return the number of stones that you have that are also jewels.
 
-require 'minitest/autorun'
+require_relative '../test_helper'
 
 class StonesAndJewels
   def initialize(stones:, jewels:)

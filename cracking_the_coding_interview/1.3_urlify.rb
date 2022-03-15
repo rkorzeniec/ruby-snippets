@@ -8,7 +8,7 @@
 # Input: "Mr John Smith ", 13
 # Output: "Mr%20John%20Smith"
 
-require 'minitest/autorun'
+require_relative '../test_helper'
 
 class Urlify
   def initialize(text)

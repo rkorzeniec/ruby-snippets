@@ -2,7 +2,7 @@
 
 # https://leetcode.com/problems/fibonacci-number/
 
-require 'minitest/autorun'
+require_relative '../test_helper'
 
 # Runtime: 101 ms, faster than 73.04% of Ruby online submissions for Fibonacci Number.
 # Memory Usage: 211.1 MB, less than 33.04% of Ruby online submissions for Fibonacci Number.

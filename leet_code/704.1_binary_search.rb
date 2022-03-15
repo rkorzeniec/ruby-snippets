@@ -2,7 +2,7 @@
 
 # https://leetcode.com/problems/binary-search/
 
-require 'minitest/autorun'
+require_relative '../test_helper'
 
 # Runtime: 105 ms, faster than 73.21% of Ruby online submissions for Binary Search.
 # Memory Usage: 213.8 MB, less than 28.30% of Ruby online submissions for Binary Search.

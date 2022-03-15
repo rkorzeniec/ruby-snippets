@@ -15,7 +15,7 @@
 
 # Output: {2, 1, 3}, {2, 3, 1}
 
-require 'minitest/autorun'
+require_relative '../test_helper'
 
 class Node
   attr_accessor :value, :left, :right

@@ -13,7 +13,7 @@
 # Input: 3 -> 5 -> 8 -> 5 -> 10 -> 2 -> 1 [partition = 5]
 # Output: 3 -> 1 -> 2 -> 5 -> 5 -> 8 -> 10
 
-require 'minitest/autorun'
+require_relative '../test_helper'
 require 'set'
 
 Node = Struct.new('Node', :value, :next)

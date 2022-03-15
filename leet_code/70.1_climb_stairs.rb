@@ -2,7 +2,7 @@
 
 # https://leetcode.com/problems/climbing-stairs/
 
-require 'minitest/autorun'
+require_relative '../test_helper'
 
 # Runtime: 64 ms, faster than 87.84% of Ruby online submissions for Climbing Stairs.
 # Memory Usage: 210.9 MB, less than 51.35% of Ruby online submissions for Climbing Stairs.

@@ -2,7 +2,7 @@
 
 # https://leetcode.com/problems/n-th-tribonacci-number/
 
-require 'minitest/autorun'
+require_relative '../test_helper'
 
 # Runtime: 64 ms, faster than 85.57% of Ruby online submissions for N-th Tribonacci Number.
 # Memory Usage: 210.9 MB, less than 54.64% of Ruby online submissions for N-th Tribonacci Number.

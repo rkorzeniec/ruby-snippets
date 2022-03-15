@@ -38,7 +38,7 @@
 #   1   3
 # return false.
 
-require 'minitest/autorun'
+require_relative '../test_helper'
 
 class Node
   attr_accessor :value, :left, :right

@@ -2,7 +2,7 @@
 
 # https://leetcode.com/problems/rotate-array/
 
-require 'minitest/autorun'
+require_relative '../test_helper'
 
 # Runtime: 175 ms, faster than 64.88% of Ruby online submissions for Rotate Array.
 # Memory Usage: 218.4 MB, less than 76.14% of Ruby online submissions for Rotate Array.

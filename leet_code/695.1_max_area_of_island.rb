@@ -2,7 +2,7 @@
 
 # https://leetcode.com/problems/number-of-islands/
 
-require 'minitest/autorun'
+require_relative '../test_helper'
 
 # Runtime: 132 ms, faster than 67.71% of Ruby online submissions for Max Area of Island.
 # Memory Usage: 212.6 MB, less than 17.71% of Ruby online submissions for Max Area of Island.

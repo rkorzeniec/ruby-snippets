@@ -2,7 +2,7 @@
 
 # https://leetcode.com/problems/number-of-islands/
 
-require 'minitest/autorun'
+require_relative '../test_helper'
 
 # Runtime: 244 ms, faster than 61.11% of Ruby online submissions for Number of Islands.
 # Memory Usage: 219.4 MB, less than 68.18% of Ruby online submissions for Number of Islands.

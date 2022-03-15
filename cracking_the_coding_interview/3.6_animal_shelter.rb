@@ -13,7 +13,7 @@
 
 # You may use the built-in Linked list data structure.
 
-require 'minitest/autorun'
+require_relative '../test_helper'
 
 Animal = Struct.new(:kind)
 QueueItem = Struct.new(:animal, :timestamp, keyword_init: true)

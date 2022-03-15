@@ -2,7 +2,7 @@
 
 # https://leetcode.com/problems/valid-sudoku/
 
-require 'minitest/autorun'
+require_relative '../test_helper'
 
 # Runtime: 110 ms, faster than 68.75% of Ruby online submissions for Valid Sudoku.
 # Memory Usage: 211 MB, less than 38.28% of Ruby online submissions for Valid Sudoku.

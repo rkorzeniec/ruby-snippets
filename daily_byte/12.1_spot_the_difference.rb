@@ -10,7 +10,7 @@
 
 # NOTE: You may assume that at most one additional character can be added to t.
 
-require 'minitest/autorun'
+require_relative '../test_helper'
 
 class RandomCharacter
   def initialize(text, other_text)

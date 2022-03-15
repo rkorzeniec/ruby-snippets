@@ -2,7 +2,7 @@
 
 # https://leetcode.com/problems/pascals-triangle/
 
-require 'minitest/autorun'
+require_relative '../test_helper'
 
 # Runtime: 72 ms, faster than 79.45% of Ruby online submissions for Pascal's Triangle.
 # Memory Usage: 211.3 MB, less than 8.90% of Ruby online submissions for Pascal's Triangle.

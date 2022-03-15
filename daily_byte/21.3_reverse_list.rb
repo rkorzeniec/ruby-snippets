@@ -16,7 +16,7 @@
 # return a reference to the node that contains 1 which points to a list that
 # looks like the following: 1 -> null
 
-require 'minitest/autorun'
+require_relative '../test_helper'
 
 Node = Struct.new('Node', :value, :next)
 

@@ -13,7 +13,7 @@
 # FOLLOW UP
 # Implement a function popAt(int index) which performs a pop operation on a specific sub-stack.
 
-require 'minitest/autorun'
+require_relative '../test_helper'
 
 class SetOfStacks
   def initialize(capacity = 5)

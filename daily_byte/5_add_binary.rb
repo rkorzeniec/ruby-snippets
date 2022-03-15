@@ -6,7 +6,7 @@
 
 # NOTE: neither binary string will contain leading 0s unless the string itself is 0
 
-require 'minitest/autorun'
+require_relative '../test_helper'
 
 class Binary
   def initialize(binary)

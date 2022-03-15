@@ -2,7 +2,7 @@
 
 # Implement a MyQueue class which implements a queue using two stacks.
 
-require 'minitest/autorun'
+require_relative '../test_helper'
 
 class MyQueue
   def initialize

@@ -2,7 +2,7 @@
 
 # https://leetcode.com/problems/contains-duplicate/
 
-require 'minitest/autorun'
+require_relative '../test_helper'
 require 'set'
 
 # Runtime: 180 ms, faster than 38.87% of Ruby online submissions for Contains Duplicate.

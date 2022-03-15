@@ -2,7 +2,7 @@
 
 # https://leetcode.com/problems/first-unique-character-in-a-string/
 
-require 'minitest/autorun'
+require_relative '../test_helper'
 
 # Runtime: 272 ms, faster than 86.36% of Ruby online submissions for First Unique Character in a String.
 # Memory Usage: 219.8 MB, less than 5.05% of Ruby online submissions for First Unique Character in a String.

@@ -4,7 +4,7 @@
 # Given a string, return the index of its first unique character.
 # If a unique character does not exist, return -1.
 
-require 'minitest/autorun'
+require_relative '../test_helper'
 
 class UniqueCharacter
   def initialize(text)

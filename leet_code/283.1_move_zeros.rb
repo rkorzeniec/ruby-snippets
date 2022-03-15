@@ -2,7 +2,7 @@
 
 # https://leetcode.com/problems/move-zeroes/
 
-require 'minitest/autorun'
+require_relative '../test_helper'
 
 # Runtime: 178 ms, faster than 45.80% of Ruby online submissions for Move Zeroes.
 # Memory Usage: 212.7 MB, less than 69.97% of Ruby online submissions for Move Zeroes.

@@ -11,7 +11,7 @@
 # s = "como#pur#ter", t = "computer", return true
 # s = "cof#dim#ng", t = "code", return false
 
-require 'minitest/autorun'
+require_relative '../test_helper'
 
 class Keystrokes
   BACKSPACE = '#'

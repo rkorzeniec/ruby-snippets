@@ -2,7 +2,7 @@
 
 # Implement an algorithm to find the kth to last element of a singly linked list.
 
-require 'minitest/autorun'
+require_relative '../test_helper'
 require 'set'
 
 Node = Struct.new('Node', :value, :next)

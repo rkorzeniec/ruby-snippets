@@ -8,7 +8,7 @@
 # 1 -> 2 -> 3 -> false
 # 1 -> 1 true (1 points to itself)
 
-require 'minitest/autorun'
+require_relative '../test_helper'
 
 Node = Struct.new('Node', :value, :next)
 

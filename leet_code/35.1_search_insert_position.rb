@@ -2,7 +2,7 @@
 
 # https://leetcode.com/problems/search-insert-position/
 
-require 'minitest/autorun'
+require_relative '../test_helper'
 
 # Runtime: 99 ms, faster than 60.52% of Ruby online submissions for Search Insert Position.
 # Memory Usage: 211.1 MB, less than 60.30% of Ruby online submissions for Search Insert Position.

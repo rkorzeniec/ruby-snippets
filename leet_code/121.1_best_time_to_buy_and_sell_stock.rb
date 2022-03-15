@@ -2,7 +2,7 @@
 
 # https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
 
-require 'minitest/autorun'
+require_relative '../test_helper'
 
 # Runtime: 245 ms, faster than 52.51% of Ruby online submissions for Best Time to Buy and Sell Stock.
 # Memory Usage: 220.7 MB, less than 60.66% of Ruby online submissions for Best Time to Buy and Sell Stock.

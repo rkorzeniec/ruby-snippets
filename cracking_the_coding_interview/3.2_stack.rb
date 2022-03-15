@@ -4,7 +4,7 @@
 # has a function min which returns the minimum element?
 # Push, pop and min should all operate in 0(1) time.
 
-require 'minitest/autorun'
+require_relative '../test_helper'
 
 class Stack
   def initialize

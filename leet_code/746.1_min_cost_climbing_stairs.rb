@@ -2,7 +2,7 @@
 
 # https://leetcode.com/problems/min-cost-climbing-stairs/
 
-require 'minitest/autorun'
+require_relative '../test_helper'
 
 # Runtime: 92 ms, faster than 69.81% of Ruby online submissions for Min Cost Climbing Stairs.
 # Memory Usage: 212.9 MB, less than 6.60% of Ruby online submissions for Min Cost Climbing Stairs.

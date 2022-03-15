@@ -4,7 +4,7 @@
 # of a given node in a binary search tree.
 # You may assume that each node has a link to its parent.
 
-require 'minitest/autorun'
+require_relative '../test_helper'
 
 class Node
   attr_accessor :value, :left, :right, :parent

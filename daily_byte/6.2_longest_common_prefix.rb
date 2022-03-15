@@ -4,7 +4,7 @@
 
 # Given a list of strings, find the longest common prefix between all strings.
 
-require 'minitest/autorun'
+require_relative '../test_helper'
 
 class LongestCommonPrefix
   def initialize(words)

@@ -6,7 +6,7 @@
 
 # The stack supports the following operations: push, pop, peek, and isEmpty.
 
-require 'minitest/autorun'
+require_relative '../test_helper'
 
 class Stack
   def initialize

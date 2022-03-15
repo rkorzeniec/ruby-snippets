@@ -5,7 +5,7 @@
 # write a method to rotate the image by 90 degrees.
 # Can you do this in place?
 
-require 'minitest/autorun'
+require_relative '../test_helper'
 
 class MatrixRotator
   def initialize(matrix)

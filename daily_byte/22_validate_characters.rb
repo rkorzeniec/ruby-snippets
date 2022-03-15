@@ -8,7 +8,7 @@
 # "(({[]}))", return true
 # "{(})", return false
 
-require 'minitest/autorun'
+require_relative '../test_helper'
 
 class Brackets
   PARENTHESIS = { ')' => '(', ']' => '[', '}' => '{' }.freeze

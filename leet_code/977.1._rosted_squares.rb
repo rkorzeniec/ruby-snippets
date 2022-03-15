@@ -2,7 +2,7 @@
 
 # https://leetcode.com/problems/rotate-array/
 
-require 'minitest/autorun'
+require_relative '../test_helper'
 
 # Runtime: 165 ms, faster than 74.08% of Ruby online submissions for Squares of a Sorted Array.
 # Memory Usage: 213.5 MB, less than 67.89% of Ruby online submissions for Squares of a Sorted Array.

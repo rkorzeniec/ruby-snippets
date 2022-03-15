@@ -10,7 +10,7 @@
 # s = "foobar", return "fbar"
 # s = "abccbefggfe", return "a"
 
-require 'minitest/autorun'
+require_relative '../test_helper'
 
 class AdjacentCharacters
   def initialize(input)

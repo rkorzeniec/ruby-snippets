@@ -6,7 +6,7 @@
 
 # NOTE: a palindrome is a sequence of characters that reads the same forwards and backwards.
 
-require 'minitest/autorun'
+require_relative '../test_helper'
 
 class Palindrome
   def initialize(text)

@@ -2,7 +2,7 @@
 
 # https://leetcode.com/problems/remove-nth-node-from-end-of-list/
 
-require 'minitest/autorun'
+require_relative '../test_helper'
 
 class ListNode
   attr_accessor :val, :next

@@ -2,7 +2,7 @@
 
 # https://leetcode.com/problems/number-of-1-bits/
 
-require 'minitest/autorun'
+require_relative '../test_helper'
 
 
 class Solution

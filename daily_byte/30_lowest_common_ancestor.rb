@@ -28,7 +28,7 @@
 #       6   9
 # and a = 6, b = 8, return a reference to the node containing 8.
 
-require 'minitest/autorun'
+require_relative '../test_helper'
 
 class Node
   attr_accessor :value, :left, :right

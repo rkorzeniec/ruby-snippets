@@ -2,7 +2,7 @@
 
 # https://leetcode.com/problems/maximum-subarray/
 
-require 'minitest/autorun'
+require_relative '../test_helper'
 
 # Runtime: 209 ms, faster than 58.00% of Ruby online submissions for Maximum Subarray.
 # Memory Usage: 220.4 MB, less than 15.60% of Ruby online submissions for Maximum Subarray.

@@ -2,7 +2,7 @@
 
 # https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/
 
-require 'minitest/autorun'
+require_relative '../test_helper'
 
 # Runtime: 64 ms, faster than 96.97% of Ruby online submissions for Count Odd Numbers in an Interval Range.
 # Memory Usage: 211.1 MB, less than 15.15% of Ruby online submissions for Count Odd Numbers in an Interval Range.
