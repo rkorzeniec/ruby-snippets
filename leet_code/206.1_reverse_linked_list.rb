@@ -2,6 +2,8 @@
 
 require_relative '../test_helper'
 
+# https://leetcode.com/problems/reverse-linked-list
+
 # Runtime: 103 ms, faster than 64.26% of Ruby online submissions for Reverse Linked List.
 # Memory Usage: 211.6 MB, less than 18.02% of Ruby online submissions for Reverse Linked List.
 class ListNode
