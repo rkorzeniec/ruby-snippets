@@ -4,7 +4,8 @@
 
 require_relative '../test_helper'
 
-
+# Runtime: 113 ms, faster than 66.00% of Ruby online submissions for Permutations.
+# Memory Usage: 211 MB, less than 63.33% of Ruby online submissions for Permutations.
 class Solution
   class << self
     def permute(nums)
