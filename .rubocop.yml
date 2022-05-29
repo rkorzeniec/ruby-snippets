@@ -17,7 +17,7 @@ Naming/VariableNumber:
 
 Layout/LineLength:
   Max: 95
-  IgnoredPatterns:
+  AllowedPatterns:
     - describe
 
 Style/Documentation:
